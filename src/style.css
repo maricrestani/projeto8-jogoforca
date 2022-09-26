@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: roboto;
+}
+
+img {
+    width: 350px;
+}
+
+.caixa-forca {
+    display: flex;
+    padding: 1% 12%;
+}
+
+.caixa-direita {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-esquerda {
+    width: 60%;
+}
+
+.caixa-forca button {
+    background-color: #42ae61;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.acionar-botao{
+    color: #42ae61;
+}
+
+.palavra {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.caixa-letras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 12%;
+}
+
+.alfabeto {
+    width: 650px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.letras-ativadas {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #e1ecf4;
+    color: #4686b7;
+    border: 1px solid #4686b7;
+    border-radius: 3px;
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letras-desativadas {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #9faab5;
+    color: #79818a;
+    border: 1px solid #9faab5;
+    border-radius: 3px;
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    font-size: 15px;
+}
+
+.caixa-input button {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #e1ecf4;
+    color: #4686b7;
+    border: 1px solid #4686b7;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
